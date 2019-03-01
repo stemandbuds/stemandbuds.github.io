@@ -3,9 +3,7 @@ $(document).ready(function(){
   document.getElementById('vid').play();
 });
 
-$(function(){
-      $("#nav-placeholder").load("nav.html");
-});
+
 
 $(window).scroll(function(){
   $('nav').toggleClass('scrolled', $(this).scrollTop() > $(window).height() * 0.9);

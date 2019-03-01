@@ -1,0 +1,3 @@
+https://compressimage.toolur.com/
+image quality: 80%
+resize to W: 1200
