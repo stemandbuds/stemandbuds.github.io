@@ -1,0 +1,182 @@
+
+body{
+  background-color: #e6e6e6;
+  overflow-x: hidden;
+}
+
+#home{
+  overflow: hidden;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#vid{}
+  
+/* The container for our text and stuff */
+#messageBox{
+    position: absolute;  top: 0;  left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.fullheight{
+  height: 100vh;
+}
+
+.height90{
+  min-height: 90vh;
+}
+
+
+
+.text{
+  font-family: Ubuntu;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-size: calc(.5em + 2vh);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.programlist{
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+
+
+
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+}
+
+.foundersh2{
+  text-align: center;
+  font-family: Ubuntu;
+  color: #4a4a4a;
+  font-size: calc(1em + 2vh);
+
+  margin-top: 5%;
+}
+
+.foundersh3{
+  text-align: center;
+  font-family: Ubuntu;
+  color: #4C878B;
+  font-size: calc(1em + 1vh);
+
+}
+
+.contacth{
+  text-align: center;
+  font-family: Ubuntu;
+  color: #4a4a4a;
+  font-size: calc(1em + 1vh);
+}
+
+.contacta{
+  text-align: center;
+  font-family: Ubuntu;
+  color: #4C878B;
+  font-size: calc(1em + .5vh);
+}
+
+
+
+
+
+
+#aboutnav{}
+
+
+#abouth{
+  text-align: center;
+  font-family: Ubuntu;
+  color: #4a4a4a;
+  font-size: calc(2em + 12vh);
+  font-weight: bold;
+}
+
+#aboutp{
+  font-family: Ubuntu;
+  color: #4C878B;
+  font-size: calc(.75em + 2vh);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#informationnav{}
+
+#carouselh{
+  font-family: Ubuntu;
+  color: #ffff;
+  font-size: calc(1em + 5vh);
+  font-weight: bold;
+}
+
+#copytext{
+  text-align: center;
+  font-family: Ubuntu;
+  padding-top: 4vh;
+  color: #FFFFFF
+}
+
+#foundersh{
+  text-align: center;
+  font-family: Ubuntu;
+  color: #4a4a4a;
+  font-size: calc(2em + 6vh);
+  font-weight: bold;
+}
+
+#foundersimg{
+  margin-top: 6%;
+  height: 35vh;
+  width: 35vh;
+  border-radius: 50%;
+}
+
+footer{
+	background-color:#4a4a4a;
+  height:100px
+	}
+
+.navbar {
+
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+
+
+}
+
+
+.nav-link{
+  font-family: Ubuntu;
+}
+
+
+.navbg{
+  transition: 500ms ease;
+  background: transparent !important;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0);
+}
+
+.navbg.scrolled{
+  background: #240733 !important;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
